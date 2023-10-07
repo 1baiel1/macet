@@ -1,0 +1,125 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.wrap{
+    width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+   
+}
+
+
+.hero{
+    background-size: cover;
+    height: 1220px;
+    width: 1300px;
+    background-repeat: repeat;
+    background-image: url(imag/pavel-fertikh-R1Wy2m3oFqQ-unsplash\ 1.jpg);
+}
+
+.header{
+    padding-top: 69px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.none{
+    width: 100px;
+    visibility: hidden;
+    height: 10px;
+}
+
+.head-title{
+    color: #151515;
+    font-size: 24px;
+    font-family: Krone One;
+    font-weight: 400;  
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+    align-items: center;
+    margin-top: 217px;
+}
+
+.title2{
+    color: #b52222;
+    text-align: center;
+    font-family: Krone One;
+    font-size: 96px;
+    font-weight: 400;
+    max-width: 1132px;
+    text-transform: uppercase;
+}
+
+.btn{
+    width: 236px;
+    color: #c31212;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    height: 44px;
+    font-family: Poppins;
+    background: transparent;
+    border: 3px solid #090909;
+   
+}
+
+.sub-svg{
+    width: 43px;
+    height: 43px;
+    display: flex;
+}
+
+.sub-svg{
+    margin: 305px auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-info{
+    width: 1150px;
+    height: 1081px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+.about-title{
+    color: #151515;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-txt{
+    color: #151515;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    max-width: 680px;
+}
+
+.about-img img{
+    width: 1150px;
+    height: 1081px;
+}
+
